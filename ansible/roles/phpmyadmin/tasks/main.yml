@@ -15,8 +15,8 @@
 - name: Copy conf for apache
   template: src=phpmyadmin.tpl dest=/etc/httpd/conf.d/phpmyadmin.conf owner=root group=root mode=0644
 
-- name: Setting firewall rules for phpmyadmin
-  firewalld: zone=public port=9000/tcp permanent=true state=enabled
+#- name: Setting firewall rules for phpmyadmin
+#  firewalld: zone=public port=9000/tcp permanent=true state=enabled
 
 - name: Flush iptables
   shell: iptables -F
