@@ -33,8 +33,8 @@ terminal and run these commands:
 	$ cd /var/www
 	$ mkdir project
 	$ cd project
-	$ git clone https://github.com/skecskes/vagrant-centos7-ansible-lamp.git
-	$ cd vagrant-centos7-ansible-lamp/
+	$ git clone https://github.com/MacFlurry/centos7-ansible-lamp.git
+	$ cd centos7-ansible-lamp
 	$ vagrant up
 
 Your /var/www/project folder will be synced with with vagrants apache root directory. 
@@ -45,7 +45,7 @@ from internet, which in my case took 8 minutes and will save it locally so that 
 
 ## Licence
 
-[GNU GENERAL PUBLIC LICENSE](https://github.com/skecskes/vagrant-centos7-ansible-lamp/blob/master/LICENSE)
+[GNU GENERAL PUBLIC LICENSE](https://github.com/MacFlurry/centos7-ansible-lamp.git/blob/master/LICENSE)
 
 ## What is included
 
