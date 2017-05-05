@@ -1,0 +1,5 @@
+# file: roles/php56/handlers/main.yml
+---
+
+- name: stop firewalld
+  service: name=firewalld state=stop enabled=no
