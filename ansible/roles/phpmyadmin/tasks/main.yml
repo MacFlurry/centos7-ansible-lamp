@@ -12,6 +12,11 @@
     # echo "Copy parameters.yml and create database"
     # cp -f /vagrant/config/symfony/parameters.yml /var/www/symfony/app/config/parameters.yml
 
+- name: Finish install of phpmyadmin
+  composer:
+    command: update
+    working_dir: /var/www/phpmyadmin
+
 - name: Copy conf for apache
   template: src=phpmyadmin.tpl dest=/etc/httpd/conf.d/phpmyadmin.conf owner=root group=root mode=0644
 
