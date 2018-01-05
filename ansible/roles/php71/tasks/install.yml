@@ -1,4 +1,4 @@
-# file: roles/php70/tasks/install.yml
+# file: roles/php71/tasks/install.yml
 
 - name: Install epel from remote repo
   yum: name=https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm state=present
