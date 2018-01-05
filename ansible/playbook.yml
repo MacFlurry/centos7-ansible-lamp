@@ -6,6 +6,7 @@
     - init
     - httpd
     #- php56
-    - php70
+    #- php70
+    - php71
     - mysql
     - phpmyadmin

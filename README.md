@@ -62,4 +62,10 @@ from internet, which in my case took 8 minutes and will save it locally so that 
 
 Same as previous, but latest PHP 7.0.* (php7) is used
 
-![php7](ansible/roles/php70/php7.png)    
+[//]:![php7](ansible/roles/php70/php7.png)    
+
+### Tag 0.3.0
+
+Same as previous, but latest PHP 7.1.* (php71) is used
+
+![php71](ansible/roles/php71/php71.png)    
